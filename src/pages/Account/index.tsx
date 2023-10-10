@@ -2,8 +2,8 @@ import AccountProvider from './AccountProvider'
 import AccountPage from './AccountPage'
 
 type AccountPageProps = {
-  viewUser: boolean,
-  email: string
+  viewUser?: boolean,
+  email?: string
 }
 
 const index = ({ viewUser, email }: AccountPageProps) => {

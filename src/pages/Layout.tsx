@@ -19,7 +19,7 @@ const Layout = () => {
               <Routes>
                 <Route path="/" element={<FeedPage />} />
                 <Route path="/post" element={<PostPage />} />
-                <Route path="/account" element={<AccountPage />} />
+                <Route path="/account" element={<AccountPage  />} />
                 <Route path="/account-details/" element={<AccountDetailsPage />} />
                 <Route path="*" element={<ErrorPage />} />
               </Routes>
