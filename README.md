@@ -1,28 +1,59 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Raft Chat
 
-Currently, two official plugins are available:
+A Social Media App...
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://raw.githubusercontent.com/Raft-Chat/Client/main/public/Screenshot%20(4).png" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Demo
 
-- Configure the top-level `parserOptions` property like this:
+Live App - https://raft-chat.netlify.app/
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+Demo Video - https://drive.google.com/file/d/1PsIvcDbtzu52SQyySDByNzq_vkK6xfG6/view
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Raft-Chat/Client.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Client
+Go to the project directory
+
+```bash
+  cd client
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file by replacing .env.example to .env
+
+`VITE_AUTH0_DOMAIN`
+`VITE_AUTH0_CLIENTID`
+`VITE_BACKEND_URL`
+## Tech Stack
+
+**Client:** React, TailwindCSS & Daisy UI, Apollo Client
+
+**Server:** Node, Express, Apollo Server (GraphQL)
+
+
+## Authors
+
+- [@AkashGaurav](https://www.github.com/TheGaurav123)
+
